@@ -7,7 +7,11 @@ class Home extends React.Component {
   }
 
   render() {
-    return <p>{this.state.someKey}</p>;
+    return (
+        <div className="Home">
+            <p>{this.state.someKey}</p>;
+        </div>
+    )
   }
 
   componentDidMount() {
