@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 const RESUME_PATH = "/resume";
-const LABS_PATH = "/labs";
+const LABS_PATH = "/lab";
 
 class Home extends React.Component {
   constructor() {
