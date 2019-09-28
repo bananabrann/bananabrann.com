@@ -1,5 +1,7 @@
 import React from 'react';
 
+const DOCUMENT_TITLE = "Bananabrann.com - Lab"
+
 class Lab extends React.Component {
   constructor() {
     super();
@@ -11,7 +13,7 @@ class Lab extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ someKey: 'otherValue' });
+    document.title = DOCUMENT_TITLE;
   }
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+const DOCUMENT_TITLE = "BananaBrann.com"
 const RESUME_PATH = "/resume";
 const LABS_PATH = "/lab";
 
@@ -32,7 +33,7 @@ class Home extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ someKey: 'otherValue' });
+    document.title = DOCUMENT_TITLE;
   }
 }
 
