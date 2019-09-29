@@ -1,18 +1,18 @@
 @import "../App/App.css";
 
 .Home {
-    height: 100vh;
-    color: var(--color-offblack);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  color: var(--color-offblack);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .Home h2 {
-    display: inline;
-    font-family: "Montserrat Subrayada", sans-serif;
-    font-size: 36px;
+  display: inline;
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 36px;
 }
 
 .Home .home-nav-box-area * {
@@ -20,10 +20,10 @@
 }
 
 .Home .home-nav-box-area {
-    position: relative;
-    width: 500px;
-    /* background-color: yellow; */
-    overflow: hidden;
+  position: relative;
+  width: 500px;
+  /* background-color: yellow; */
+  overflow: hidden;
 }
 
 .Home .home-nav-box-area:hover p {
@@ -31,12 +31,12 @@
 }
 
 .Home p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    font-style: italic;
-    padding-left: 10px;
-    position: absolute;
-    bottom: -50px;
-    transition: 1s;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 10px;
+  position: absolute;
+  bottom: -50px;
+  transition: 1s;
 }
