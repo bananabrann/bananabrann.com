@@ -15,9 +15,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route path="/" exact component={Home} renter={routerProps => <Home />} />
-        <Route path="/resume" exact component={Resume} renter={routerProps => <Resume />} />
-        <Route path="/lab" exact component={Lab} renter={routerProps => <Lab />}/>
+        <Route path="/" exact component={Home} render={routerProps => <Home />} />
+        <Route path="/resume" exact component={Resume} render={routerProps => <Resume />} />
+        <Route path="/lab" exact component={Lab} render={routerProps => <Lab />}/>
       </div>
     );
   }
