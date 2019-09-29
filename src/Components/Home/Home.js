@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import bananaPicture from "../../img/bananas.png";
 import "./Home.css";
 
 const DOCUMENT_TITLE = "BananaBrann.com";
@@ -16,7 +16,9 @@ class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-        <div className="home-left-area"></div>
+        <div className="home-left-area">
+          <img alt="" src={bananaPicture} />
+        </div>
 
         <div className="home-right-area">
           <Link to={RESUME_PATH}>
