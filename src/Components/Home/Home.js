@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 import "./Home.css"
 
-const dandelionProgram = require("./dandelion");
-
 const DOCUMENT_TITLE = "BananaBrann.com"
 const RESUME_PATH = "/resume";
 const LABS_PATH = "/lab";
@@ -20,7 +18,7 @@ class Home extends React.Component {
         <div className="Home">
             <div className="home-left-area">
 
-            </div>"
+            </div>
 
             <div className="home-right-area">
                 <Link to={RESUME_PATH}>
@@ -43,7 +41,7 @@ class Home extends React.Component {
   componentDidMount() {
     document.title = DOCUMENT_TITLE;
 
-    dandelionProgram.runDandelionProgram
+
   }
 }
 
