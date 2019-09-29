@@ -3,13 +3,18 @@ Welcome! This is the repo for my new site: bananabrann.com. It's a very simple s
 Currently, there are only two pages that are publicly accessible: Lab, and Resume.
 
 # How to Launch
-**Mac and Linux with Node installed**
+**Mac and Linux with Node installed:**
+
 `git clone git@github.com:bananabrann/bananabrann.com.git && cd ./bananabrann.com && npm install && npm start`
 
-**Install Homebrew (MacOS):** `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && export PATH="/usr/local/bin:$PATH"`
+**Install Homebrew (MacOS):**
+
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && export PATH="/usr/local/bin:$PATH"`
 > To verify successful installation, run `brew doctor`
 
-**Install Node with Homebrew:** `brew install node`
+**Install Node with Homebrew:**
+
+`brew install node`
 
 ## Windows
 Buy a Linux or Mac
