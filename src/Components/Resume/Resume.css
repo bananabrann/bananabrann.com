@@ -1,0 +1,44 @@
+.Resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.Resume .header {
+  /* background-color: red; */
+  min-height: 100px;
+  width: 100%;
+  font-size: 26px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Resume .header * {
+  margin: 0 10px
+}
+
+.Resume button {
+  background-color: rgb(37, 65, 97); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.Resume img {
+  max-width: 80vw;
+}
