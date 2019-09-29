@@ -1,6 +1,9 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import "./Lab.css";
 
 const DOCUMENT_TITLE = "Bananabrann.com - Lab"
+const HOME_PATH = "/"
 
 class Lab extends React.Component {
   constructor() {
@@ -9,7 +12,13 @@ class Lab extends React.Component {
   }
 
   render() {
-    return <p>{this.state.someKey}</p>;
+    return (
+      <div className="Lab">
+        <nav>
+          <Link to ={HOME_PATH}><button>Go Back</button></Link>
+        </nav>
+      </div>
+    )
   }
 
   componentDidMount() {
