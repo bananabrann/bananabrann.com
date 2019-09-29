@@ -25,7 +25,7 @@ class Resume extends React.Component {
             </h5>
           </div>
         </div>
-        <img src={resume} />
+        <img alt="Pierson Brannan's resume. If you do not see this image, you can download the resume instead via the 'download' button above" src={resume} />
       </div>
     )
   }
