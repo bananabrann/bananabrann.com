@@ -16,8 +16,14 @@ class Resume extends React.Component {
     return(
       <div className="Resume">
         <div className="header">
-          <Link to ={HOME_PATH}><button>Go Back</button></Link>
-          <button><a href={resume} download>Download</a></button>
+          <div className="buttons">
+            <Link to ={HOME_PATH}><button>Go Back</button></Link>
+            <button><a href={resume} download>Download</a></button>
+          </div>
+          <div className="contact">
+            <h5>To contact me, please email me at <b>foo@bananabrann.com</b>
+            </h5>
+          </div>
         </div>
         <img src={resume} />
       </div>
