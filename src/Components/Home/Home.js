@@ -23,13 +23,13 @@ class Home extends React.Component {
             <div className="home-right-area">
                 <Link to={RESUME_PATH}>
                     <div className="home-nav-box-area">
-                        <h3>Resume</h3>
+                        <h2>Resume</h2>
                         <p>View or download resume</p>
                     </div>
                 </Link>
                 <Link to={LABS_PATH}>
                     <div className="home-nav-box-area">
-                        <h3>Lab</h3>
+                        <h2>Lab</h2>
                         <p>View projects and works</p>
                     </div>
                 </Link>
@@ -40,8 +40,6 @@ class Home extends React.Component {
 
   componentDidMount() {
     document.title = DOCUMENT_TITLE;
-
-
   }
 }
 
