@@ -9,12 +9,34 @@
   align-items: center;
 }
 
-.Home h3 {
-  font-family: 'Montserrat Subrayada', sans-serif;
+.Home h2 {
+  display: inline;
+  font-family: "Montserrat Subrayada", sans-serif;
   font-size: 36px;
 }
 
+.Home .home-nav-box-area * {
+  display: inline;
+}
+
+.Home .home-nav-box-area {
+  position: relative;
+  width: 500px;
+  /* background-color: yellow; */
+  overflow: hidden;
+}
+
+.Home .home-nav-box-area:hover p {
+  bottom: 0;
+}
+
 .Home p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 10px;
+  position: absolute;
+  bottom: -50px;
+  transition: 1s;
 }

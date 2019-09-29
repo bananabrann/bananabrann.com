@@ -1,0 +1,6 @@
+@import "../App/App.css";
+
+.Lab nav {
+  background-color: var(--color-blue);
+  padding: 14px;
+}
