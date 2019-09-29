@@ -1,6 +1,10 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import resume from "../../img/resume-online.jpg";
+import "./Resume.css";
 
 const DOCUMENT_TITLE = "BananaBrann.com - Resume";
+const HOME_PATH = "/";
 
 class Resume extends React.Component {
   constructor() {
@@ -9,7 +13,21 @@ class Resume extends React.Component {
   }
 
   render() {
-    return <p>{this.state.someKey}</p>;
+    return(
+      <div className="Resume">
+        <div className="header">
+          <div className="buttons">
+            <Link to ={HOME_PATH}><button>Go Back</button></Link>
+            <button><a href={resume} download>Download</a></button>
+          </div>
+          <div className="contact">
+            <h5>To contact me, please email me at <b>foo@bananabrann.com</b>
+            </h5>
+          </div>
+        </div>
+        <img src={resume} />
+      </div>
+    )
   }
 
   componentDidMount() {
