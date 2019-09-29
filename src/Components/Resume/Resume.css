@@ -5,28 +5,12 @@
   align-items: center;
 }
 
-.Resume .header {
-  margin: 20px auto;
-}
-
-.Resume .buttons * {
-  margin: 0 5px;
-}
-
-.Resume .buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.Resume .contact {
+/* .Resume .contact {
   width: 100%;
   padding: 12px 0 12px 0;
-}
-
+} */
 
 .Resume img {
-  max-width: 80vw;
-  margin-bottom: 200px;
+  max-width: 84vw;
+  margin: 50px auto;
 }

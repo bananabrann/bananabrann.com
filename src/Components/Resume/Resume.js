@@ -15,16 +15,16 @@ class Resume extends React.Component {
   render() {
     return(
       <div className="Resume">
-        <div className="header">
+        <nav className="header">
           <div className="buttons">
             <Link to ={HOME_PATH}><button>Go Back</button></Link>
             <button><a href={resume} download>Download</a></button>
           </div>
-          <div className="contact">
+          {/* <div className="contact">
             <h5>To contact me, please email me at <b>foo@bananabrann.com</b>
             </h5>
-          </div>
-        </div>
+          </div> */}
+        </nav>
         <img alt="Pierson Brannan's resume. If you do not see this image, you can download the resume instead via the 'download' button above" src={resume} />
       </div>
     )
