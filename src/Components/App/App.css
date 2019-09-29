@@ -3,6 +3,7 @@
   --color-offwhite: rgb(228, 228, 228);
 
   --color-banana: rgb(214, 214, 5);
+  --color-gold: rgb(179, 146, 2);
 
   --color-blue: rgb(37, 65, 97);
   --color-lightblue: rgb(0, 180, 217);
@@ -42,7 +43,7 @@ button:hover {
 }
 
 nav {
-  background-color: var(--color-blue);
+  background-color: var(--color-gold);
   padding: 14px;
   width: 100%;
 }
