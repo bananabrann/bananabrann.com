@@ -1,4 +1,20 @@
+@import "../App/App.css";
+
 .Home {
-  
-  height: 100%;
+  height: 100vh;
+  color: var(--color-offblack);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home h3 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 36px;
+}
+
+.Home p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
 }
