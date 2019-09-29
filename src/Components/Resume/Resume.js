@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import resume from "../../img/resume-online.jpg";
 import "./Resume.css";
 
-const DOCUMENT_TITLE = "BananaBrann.com - Resume";
+const DOCUMENT_TITLE = "Bananabrann - Resume";
 const HOME_PATH = "/";
 
 class Resume extends React.Component {

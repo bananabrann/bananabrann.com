@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import bananaPicture from "../../img/bananas.png";
 import "./Home.css";
 
-const DOCUMENT_TITLE = "BananaBrann.com";
+const DOCUMENT_TITLE = "Bananabrann - Home";
 const RESUME_PATH = "/resume";
 const LABS_PATH = "/lab";
 

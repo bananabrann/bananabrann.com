@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import "./Lab.css";
 
-const DOCUMENT_TITLE = "Bananabrann.com - Lab"
+const DOCUMENT_TITLE = "Bananabrann - Lab"
 const HOME_PATH = "/"
 
 class Lab extends React.Component {
