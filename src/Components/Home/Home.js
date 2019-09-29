@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+import "./Home.css"
+
+const dandelionProgram = require("./dandelion");
+
 const DOCUMENT_TITLE = "BananaBrann.com"
 const RESUME_PATH = "/resume";
 const LABS_PATH = "/lab";
@@ -14,6 +18,10 @@ class Home extends React.Component {
   render() {
     return (
         <div className="Home">
+            <div className="home-left-area">
+
+            </div>"
+
             <div className="home-right-area">
                 <Link to={RESUME_PATH}>
                     <div className="home-nav-box-area">
@@ -34,6 +42,8 @@ class Home extends React.Component {
 
   componentDidMount() {
     document.title = DOCUMENT_TITLE;
+
+    dandelionProgram.runDandelionProgram
   }
 }
 
