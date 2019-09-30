@@ -3,10 +3,14 @@
 .Home {
   height: 100vh;
   color: var(--color-offblack);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+}
+
+.Home .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .Home h2 {
@@ -22,7 +26,6 @@
 .Home .home-nav-box-area {
   position: relative;
   width: 500px;
-  /* background-color: yellow; */
   overflow: hidden;
 }
 .Home .home-nav-box-area:hover {
@@ -49,4 +52,18 @@
 .home-left-area img {
   width: 145px;
   margin-right: 14px;
+}
+
+.Home .home-social-media-wrapper {
+    padding-bottom: 12px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#linkedin-logo {
+    width: 50px;
 }
