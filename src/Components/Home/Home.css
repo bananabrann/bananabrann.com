@@ -14,7 +14,7 @@
 }
 
 .Home h2 {
-  display: inline;
+  /* display: inline; */
   font-family: "Montserrat Subrayada", sans-serif;
   font-size: 36px;
 }
@@ -25,7 +25,8 @@
 
 .Home .home-nav-box-area {
   position: relative;
-  width: 500px;
+  width: 400px;
+  max-width: 100vw;
   overflow: hidden;
 }
 .Home .home-nav-box-area:hover {
