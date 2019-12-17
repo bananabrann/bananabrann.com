@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Bubble from "./Bubble/Bubble";
 import bananaPicture from "../../img/bananas.png";
 import linkedInPicture from "../../img/linkedin.png";
 import "./Home.css";
@@ -18,7 +19,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-        <div className="content-wrapper">
+        {/* <div className="content-wrapper">
           <div className="home-left-area">
             <img alt="" src={bananaPicture} />
           </div>
@@ -39,10 +40,14 @@ class Home extends React.Component {
           </div>
         </div>
 
-        <div className="home-social-media-wrapper">
+        <div className="home-social-media-wrapper"> */}
+
+          <div className="bubblegum-circle">
+            <Bubble />
+            </div>
+
           {/* prettier-ignore */}
           <a href="https://www.linkedin.com/in/pbrann/"><img id="linkedin-logo" alt="Follow me on LinkedIn" src={linkedInPicture} /></a>
-        </div>
       </div>
     );
   }
