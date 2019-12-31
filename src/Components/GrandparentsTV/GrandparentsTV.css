@@ -6,7 +6,6 @@
 #g-tv-main-area {
     height: 60%;
     width: 100%;
-    background-color: aqua;
 
     display: flex;
     justify-content: center;
@@ -26,6 +25,14 @@
     /* background-color: red; */
 }
 
+#g-tv-main-area .tile img {
+    width: 30vw;
+}
+
+#g-tv-secondary-area .tile img {
+    width: 22vw;
+}
+
 .tile {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,20 +42,13 @@
     align-items: center;
 }
 
-.tile h4 {
-    font-size: 7.5vw;
-}
-
-.tile h5 {
-    font-size: 3vw;
-}
 
 /* LOGOS */
 
 #tile-youtube {
-    background-color: rgb(243, 211, 211);
+    /* background-color: rgb(243, 211, 211); */
 }
 
 #tile-netflix {
-    background-color: #d60000;
+    /* background-color: #333; */
 }
