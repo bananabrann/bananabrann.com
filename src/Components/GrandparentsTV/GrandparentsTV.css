@@ -1,0 +1,19 @@
+#g-tv {
+    height: 100vh;
+    width: 100vw;
+}
+
+#g-tv-main-area {
+    height: 65%;
+    width: 100%;
+    background-color: aqua;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#g-tv-main-area .tile{
+    background-color: red;
+    width: 100%;
+}
