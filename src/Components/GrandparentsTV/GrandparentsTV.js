@@ -21,7 +21,11 @@ class GrandparentsTV extends React.Component {
       <div id="g-tv">
         <p>Hello grandma and grandpa!</p>
         <div id="g-tv-main-area">
-            <div className="tile t-out" id="tile-youtube"><img src={picYoutube} /></div>
+            <div className="tile t-out" id="tile-youtube">
+                <a href="https://www.youtube.com">
+                    <img src={picYoutube} />
+                </a>
+            </div>
             <div className="tile t-out" id="tile-netflix"><img src={picNetflix} /></div>
         </div>
         <div id="g-tv-secondary-area">
