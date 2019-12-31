@@ -1,19 +1,5 @@
 @media only screen and (max-width: 724px) {
-  .Home .content-wrapper {
-    flex-direction: column;
-    margin-top: -12vh;
-  }
-  .home-left-area img {
-    margin-bottom: 20px;
-  }
-  .Home .home-nav-box-area {
-    margin: 0 auto;
-  }
-  .Home .home-nav-box-area * {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 100vw;
+  .Home {
+    background-color: red;
   }
 }
