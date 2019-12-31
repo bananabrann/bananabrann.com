@@ -44,6 +44,9 @@
 
 
 /* LOGOS */
+.t-out {
+    transition: ease-in-out 0.5s;
+}
 
 #tile-youtube:hover {
     background-color: rgb(223, 220, 83);
