@@ -17,7 +17,6 @@ class Resume extends React.Component {
       <div className="Resume">
         <nav className="header">
           <div className="buttons">
-            <Link to ={HOME_PATH}><button>Go Back</button></Link>
             <button><a href={resume} download>Download</a></button>
           </div>
           {/* <div className="contact">
