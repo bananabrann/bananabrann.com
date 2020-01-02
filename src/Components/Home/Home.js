@@ -13,7 +13,10 @@ class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-        <img src={cubeGif} id="cube" alt="" />
+        <div id="upper">
+          <img src={cubeGif} id="cube" alt="" />
+          <p>Pierson Lee Brannan</p>
+        </div>
 
         <div id="lower">
           <a href="https://www.linkedin.com/in/pbrann/">

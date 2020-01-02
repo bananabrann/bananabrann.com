@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
+import Header from "../Header/Header";
 import Home from "../Home/Home";
 import Resume from "../Resume/Resume";
 import Lab from "../Lab/Lab";
 
-import "./App.css";
+import "./App.scss";
 
 class App extends Component {
   constructor(props) {
@@ -15,6 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
         {/* prettier-ignore */}
         <Route path="/" exact component={Home} render={routerProps => <Home />} />
         {/* prettier-ignore */}
