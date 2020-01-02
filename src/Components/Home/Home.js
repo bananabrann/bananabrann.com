@@ -6,8 +6,6 @@ import cubeGif from "../../img/cube.gif";
 import "./Home.scss";
 
 const DOCUMENT_TITLE = "Bananabrann - Home";
-const RESUME_PATH = "/resume";
-const LABS_PATH = "/lab";
 
 class Home extends React.Component {
   render() {
