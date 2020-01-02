@@ -1,27 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import linkedInPicture from "../../img/linkedin.png";
+import githubLogo from "../../img/github.png";
 import cubeGif from "../../img/cube.gif";
-import "./Home.css";
+import "./Home.scss";
 
 const DOCUMENT_TITLE = "Bananabrann - Home";
 const RESUME_PATH = "/resume";
 const LABS_PATH = "/lab";
 
 class Home extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div className="Home">
-        <img src={cubeGif} />
-        <a href="https://www.linkedin.com/in/pbrann/">
-          {/* prettier-ignore */}
-          <img id="linkedin-logo" alt="Follow me on LinkedIn" src={linkedInPicture} />
-        </a>
+        <img src={cubeGif} id="cube" alt="" />
 
+        <div id="lower">
+          <a href="https://www.linkedin.com/in/pbrann/">
+            {/* prettier-ignore */}
+            <img className="logo" id="linkedin" alt="Follow me on LinkedIn" src={linkedInPicture} />
+          </a>
+          <a href="https://www.github.com/bananabrann">
+            {/* prettier-ignore */}
+            <img className="logo" id="github" alt="Visit my GitHub" src={githubLogo} />
+          </a>
+        </div>
       </div>
     );
   }
