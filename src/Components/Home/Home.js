@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import linkedInPicture from "../../img/linkedin.png";
+import RingOfFire from "./RingOfFire";
 import "./Home.css";
 
 const DOCUMENT_TITLE = "Bananabrann - Home";
@@ -20,6 +21,7 @@ class Home extends React.Component {
           {/* prettier-ignore */}
           <img id="linkedin-logo" alt="Follow me on LinkedIn" src={linkedInPicture} />
         </a>
+        <RingOfFire />
       </div>
     );
   }
