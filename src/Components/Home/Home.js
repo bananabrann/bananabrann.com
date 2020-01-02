@@ -16,7 +16,10 @@ class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-          <a href="https://www.linkedin.com/in/pbrann/"><img id="linkedin-logo" alt="Follow me on LinkedIn" src={linkedInPicture} /></a>
+        <a href="https://www.linkedin.com/in/pbrann/">
+          {/* prettier-ignore */}
+          <img id="linkedin-logo" alt="Follow me on LinkedIn" src={linkedInPicture} />
+        </a>
       </div>
     );
   }

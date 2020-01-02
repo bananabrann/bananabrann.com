@@ -3,7 +3,6 @@ import { Route } from "react-router-dom";
 import Home from "../Home/Home";
 import Resume from "../Resume/Resume";
 import Lab from "../Lab/Lab";
-import GrandparentsTV from "../GrandparentsTV/GrandparentsTV";
 
 import "./App.css";
 
@@ -16,10 +15,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        {/* prettier-ignore */}
         <Route path="/" exact component={Home} render={routerProps => <Home />} />
+        {/* prettier-ignore */}
         <Route path="/resume" exact component={Resume} render={routerProps => <Resume />} />
+        {/* prettier-ignore */}
         <Route path="/lab" exact component={Lab} render={routerProps => <Lab />}/>
-        <Route path="/g-tv" exact component={GrandparentsTV} render={routerProps => <GrandparentsTV />}/>
       </div>
     );
   }
