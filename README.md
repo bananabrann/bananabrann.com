@@ -1,5 +1,5 @@
-# Introduction
-Welcome! This is the repo for my new site: bananabrann.com. It's a very simple site, primarily used for other domains that are not necessarily public.
+# bananabrann.com
+Welcome! This is the repo for my website, bananabrann.com. It's a very simple site, primarily used for other domains that are not necessarily public and/or known.
 
 # Table of Contents
 1. [How to Install](#how-to-install)
@@ -17,7 +17,7 @@ Welcome! This is the repo for my new site: bananabrann.com. It's a very simple s
 
 **Install Homebrew (MacOS):**
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && export PATH="/usr/local/bin:$PATH"`
-> To verify successful installation, run `brew doctor`
+> To verify successful installation, run `brew --version`
 
 ## Windows
 Download a Linux.
