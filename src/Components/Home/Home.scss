@@ -16,12 +16,6 @@ body {
     width: 40px;
   }
 
-  #cube {
-    width: 45vw;
-    max-width: 420px;
-    margin: 2vh 0 0 0;
-  }
-
   #upper {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -50,4 +44,15 @@ body {
       padding: 0 8px;
     }
   }
+}
+
+#cube {
+  width: 60vw;
+  max-width: 420px;
+  margin: 2vh 0 0 0;
+}
+
+#techstack {
+  height: 20px;
+  opacity: 0.25;
 }
