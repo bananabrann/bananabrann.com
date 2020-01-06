@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import bananaPic from "../../img/bananas.png";
+import bananaPic from "../../res/img/bananas.png";
 
 const LINK_HOME = "/";
 const LINK_RESUME = "/resume";

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import resume from "../../img/resume-online.jpg";
+import resumePNG from "../../res/resume-online.jpg";
 import "./Resume.css";
 
 const DOCUMENT_TITLE = "Bananabrann - Resume";
@@ -17,14 +17,16 @@ class Resume extends React.Component {
       <div className="Resume">
         <nav className="header">
           <div className="buttons">
-            <button><a href={resume} download>Download</a></button>
+            <button><a href={resumePNG} download>Download JPG</a></button>
+            <button><a href={resumePNG} download>Download TXT</a></button>
+            <button><a href={resumePNG} download>Download Word</a></button>
           </div>
           {/* <div className="contact">
             <h5>To contact me, please email me at <b>foo@bananabrann.com</b>
             </h5>
           </div> */}
         </nav>
-        <img alt="Pierson Brannan's resume. Download the resume instead via the 'download' button above" src={resume} />
+        <img alt="Pierson Brannan's resume. Download the resume instead via the 'download' button above" src={resumePNG} />
       </div>
     )
   }

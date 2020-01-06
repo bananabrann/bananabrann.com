@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import linkedInPicture from "../../img/linkedin.png";
-import githubLogo from "../../img/github.png";
-import cubeGif from "../../img/cube.gif";
-import techStack from "../../img/techstack.png";
+import linkedInPicture from "../../res/img/linkedin.png";
+import githubLogo from "../../res/img/github.png";
+import cubeGif from "../../res/img/cube.gif";
+import techStack from "../../res/img/techstack.png";
 import "./Home.scss";
 
 const DOCUMENT_TITLE = "Bananabrann - Home";
