@@ -6,6 +6,7 @@ import Resume from "../Resume/Resume";
 import Lab from "../Lab/Lab";
 
 import "./App.scss";
+import "./button.css";
 
 class App extends Component {
   constructor(props) {

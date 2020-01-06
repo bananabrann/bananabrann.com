@@ -1,28 +1,29 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
-import resumePNG from "../../res/resume.jpg";
+import resumeJPG from "../../res/resume.jpg";
 import "./Resume.css";
 
-const DOCUMENT_TITLE = "Bananabrann - Resume";
+const DOCUMENT_TITLE = "bananabrann - Resume";
 const HOME_PATH = "/";
 
 class Resume extends React.Component {
-  constructor() {
-    super();
-    this.state = { someKey: 'someValue' };
-  }
-
   render() {
-    return(
+    return (
       <div className="Resume">
         <div className="buttons">
-            <button><a href={resumePNG} download>Download JPG</a></button>
-            <button><a href={resumePNG} download>Download TXT</a></button>
-            <button><a href={resumePNG} download>Download Word</a></button>
+          {/* prettier-ignore */}
+          <button><a href={resumeJPG} download>Download JPG</a></button>
+          {/* prettier-ignore */}
+          <button><a href={resumeJPG} download>Download TXT</a></button>
+          {/* prettier-ignore */}
+          <button><a href={resumeJPG} download>Download Word</a></button>
         </div>
-        <img alt="Pierson Brannan's resume. Download the resume instead via the 'download' button above" src={resumePNG} />
+        <img
+          alt="Pierson Brannan's resume. Download the resume instead via the 'download' button above"
+          src={resumeJPG}
+        />
       </div>
-    )
+    );
   }
 
   componentDidMount() {
