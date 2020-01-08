@@ -6,7 +6,7 @@ import cubeGif from "../../res/img/cube.gif";
 import techStack from "../../res/img/techstack.png";
 import "./Home.scss";
 
-const DOCUMENT_TITLE = "Bananabrann - Home";
+const DOCUMENT_TITLE = "bananabrann - Home";
 
 class Home extends React.Component {
   render() {
