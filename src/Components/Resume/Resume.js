@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import resumeJPG from "../../res/resume.jpg";
+import resumeJPG from "../../res/resume/resume_online.jpg";
+import resumePDF from "../../res/resume/resume_online.pdf";
+import resumeTXT from "../../res/resume/resume_online.txt";
 import "./Resume.css";
 
 const DOCUMENT_TITLE = "bananabrann - Resume";
@@ -12,11 +14,11 @@ class Resume extends React.Component {
       <div className="Resume">
         <div className="buttons">
           {/* prettier-ignore */}
+          <button><a href={resumePDF} download>Download PDF</a></button>
+          {/* prettier-ignore */}
           <button><a href={resumeJPG} download>Download JPG</a></button>
           {/* prettier-ignore */}
-          <button><a href={resumeJPG} download>Download TXT</a></button>
-          {/* prettier-ignore */}
-          <button><a href={resumeJPG} download>Download Word</a></button>
+          <button><a href={resumeTXT} download>Download TXT</a></button>
         </div>
         <img
           alt="Pierson Brannan's resume. Download the resume instead via the 'download' button above"
