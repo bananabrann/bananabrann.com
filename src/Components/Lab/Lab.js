@@ -14,9 +14,7 @@ class Lab extends React.Component {
   render() {
     return (
       <div className="Lab">
-        <nav>
-          <Link to ={HOME_PATH}><button>Go Back</button></Link>
-        </nav>
+
       </div>
     )
   }
