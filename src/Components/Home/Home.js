@@ -14,8 +14,9 @@ class Home extends React.Component {
       <div className="Home">
         <div id="upper">
           <img src={cubeGif} id="cube" alt="" />
-          <p>Pierson Lee Brannan</p>
-          <img src={techStack} id="techstack" alt="" />
+          <p><b>Pierson L. Brannan</b></p>
+          <p id="welcome-message"> –– Self-taught software engineer, prior professional tuba player and U.S. Marine.</p>
+          {/* <img src={techStack} id="techstack" alt="" /> */}
         </div>
 
         <div id="lower">
