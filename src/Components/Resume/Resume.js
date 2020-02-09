@@ -60,16 +60,17 @@ class Resume extends React.Component {
     return (
       <div className="Resume">
         <div className="buttons">
+          {/* TODO: Add some Bootstrap or something here to make a button group */}
           {/* prettier-ignore */}
-          <button><a href={resumePDF} download>Download PDF</a></button>
+          <button><a href={resumePDF} download><i class="fas fa-download"></i> PDF</a></button>
           {/* prettier-ignore */}
-          <button><a href={resumeJPG} download>Download JPG</a></button>
+          <button><a href={resumeJPG} download><i class="fas fa-download"></i> JPG</a></button>
           {/* prettier-ignore */}
-          <button><a href={resumeTXT} download>Download TXT</a></button>
+          <button><a href={resumeTXT} download><i class="fas fa-download"></i> TXT</a></button>
         </div>
         <div className="zoom-buttons">
-          <button id="zoom-in" type="button" onClick={() => this.zoomIn()}><i class="fas fa-search-plus"></i></button>
-          <button id="zoom-out" type="button" onClick={() => this.zoomOut()}><i class="fas fa-search-minus"></i></button>
+          <button id="zoom-in" type="button" onClick={() => this.zoomIn()}><i class="fas fa-search-plus fa-2x"></i></button>
+          <button id="zoom-out" type="button" onClick={() => this.zoomOut()}><i class="fas fa-search-minus fa-2x"></i></button>
         </div>
         <img
           id="resume"
