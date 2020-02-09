@@ -20,6 +20,10 @@ class Resume extends React.Component {
           {/* prettier-ignore */}
           <button><a href={resumeTXT} download>Download TXT</a></button>
         </div>
+        <div className="zoom-buttons">
+          <button id="zoom-in" type="button" onclick="zoomIn()"><i class="fas fa-search-plus"></i></button>
+          <button id="zoom-out" type="button" onclick="zoomOut()"><i class="fas fa-search-minus"></i></button>
+        </div>
         <img
           alt="Pierson Brannan's resume. Download the resume instead via the 'download' button above"
           src={resumeJPG}
