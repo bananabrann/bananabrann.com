@@ -22,7 +22,7 @@ class Resume extends React.Component {
     if(currWidth > 1500) {
       alert("Maximum zoom-in level reached!")
     }
-     
+
     myImg.style.width = (currWidth + 50) + "px"
     
   }
