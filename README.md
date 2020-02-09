@@ -27,8 +27,17 @@ Download a Linux.
 
 
 # How to Deploy
-1. Ensure that the AWS CLI is installed, and the config file is setup properly with `aws configure`
-1. Execute `deploy.sh` with bash `deploy.sh`
+## Install the AWS CLI
+### Linux and MacOS
+1. Download the AWS CLI with `sudo apt install awscli` or `sudo snap install aws-cli`
+### Windows
+1. Who knows, really? If you have a Bash shell, you might be able to follow the Linux or Mac commands. If you're using Powershell or Command Line, god speed, warrior.
+
+## EZ Deploy
+There is a script that manages the deployment.
+
+1. Ensure the config file is setup properly with `aws configure`
+1. Execute `deploy.sh` with `./deploy.sh` or `bash deploy.sh`, or whatever your preferred method is.
 
 # Contributing
 There is not policy for contributions on this repo. If you feel so inclined to help, please simply make a pull request. Thank you very much!
