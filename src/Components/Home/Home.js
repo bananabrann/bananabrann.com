@@ -26,6 +26,15 @@ class Home extends React.Component {
             <i class="fab fa-stack-overflow fa-3x"></i>
           </a>
         </div>
+
+
+        {/* <a href="https://stackexchange.com/users/15325982">
+          <img src="https://stackexchange.com/users/flair/15325982.png" 
+          width="208" 
+          height="58" 
+          alt="profile for bananabrann on Stack Exchange, a network of free, community-driven Q&amp;A sites" 
+          title="profile for bananabrann on Stack Exchange, a network of free, community-driven Q&amp;A sites" />
+        </a> */}
       </div>
     );
   }
