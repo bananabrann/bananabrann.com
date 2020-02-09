@@ -12,10 +12,6 @@ body {
   justify-content: center;
   align-items: flex-start;
 
-  .logo {
-    width: 40px;
-  }
-
   b {
     font-size: 16px;
     text-transform: uppercase;
@@ -48,8 +44,8 @@ body {
     position: absolute;
     margin: 0 auto 1vh;
 
-    .logo {
-      padding: 0 8px;
+    * {
+      padding: 0 5px;
     }
   }
 }
@@ -60,7 +56,3 @@ body {
   margin: 2vh 0 0 0;
 }
 
-#techstack {
-  height: 20px;
-  opacity: 0.25;
-}
