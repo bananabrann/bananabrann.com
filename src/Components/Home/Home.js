@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import linkedInPicture from "../../res/img/linkedin.png";
 import githubLogo from "../../res/img/github.png";
+import stackOverflowLogo from "../../res/img/stackoverflow.png";
 import cubeGif from "../../res/img/cube.gif";
 import techStack from "../../res/img/techstack.png";
 import "./Home.scss";
@@ -28,6 +29,9 @@ class Home extends React.Component {
             {/* prettier-ignore */}
             <img className="logo" id="github" alt="Visit my GitHub" src={githubLogo} />
           </a>
+          {/* <a href="https://stackoverflow.com/users/11057120/bananabrann?tab=profile">
+            <img className="logo" id="stackoverflow" alt="See my Stack Overflow profile" src={stackOverflowLogo} />
+          </a> */}
         </div>
       </div>
     );

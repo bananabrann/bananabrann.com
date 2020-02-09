@@ -3,29 +3,28 @@ import { Link } from "react-router-dom";
 import "./Lab.css";
 import LabHeader from "./LabHeader/LabHeader"
 
-const DOCUMENT_TITLE = "Bananabrann - Lab"
+const DOCUMENT_TITLE = "bananabrann - Lab"
 const HOME_PATH = "/"
 
 class Lab extends React.Component {
   constructor() {
     super();
     this.state = {
-      isViewingAll = true,
-      isViewingWebdev = false,
-      isViewingAutomation = false,
-      isViewingJS = false,
-      isViewingJava = false,
-      isViewingPython = false,
-      isViewingBash = false,
-
+      isViewingAll: true,
+      isViewingWebdev: false,
+      isViewingAutomation: false,
+      isViewingJS: false,
+      isViewingJava: false,
+      isViewingPython: false,
+      isViewingBash: false
      };
   }
 
   render() {
-    if (isViewingAll) {
+    if (this.state.isViewingAll) {
       // Automation projects
     } else {
-      if (isViewingAutomation) {
+      if (this.state.isViewingAutomation) {
         // 
       }
     }
