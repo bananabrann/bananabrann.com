@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import resumeJPG from "../../res/resume/resume_online.jpg";
 import resumePDF from "../../res/resume/resume_online.pdf";
 import resumeTXT from "../../res/resume/resume_online.txt";
-import "./Resume.css";
+import "./Resume.css"
 
 const DOCUMENT_TITLE = "bananabrann - Resume";
 const HOME_PATH = "/";
@@ -27,7 +27,7 @@ class Resume extends React.Component {
     console.log(currWidth)
     console.log(this.state)
 
-    if(currWidth > 1500 && this.state.firstFunnyMessage) {
+    if (currWidth > 1500 && this.state.firstFunnyMessage) {
       alert("You cannot go any further! I mean, you can... but do you really need it that big?")
       this.setState({
         firstFunnyMessage: false,
@@ -51,9 +51,9 @@ class Resume extends React.Component {
 
   zoomOut() {
     let myImg = document.getElementById("resume")
-    let currWidth = myImg.clientWidth    
-    myImg.style.width = (currWidth -50) + "px"
-    
+    let currWidth = myImg.clientWidth
+    myImg.style.width = (currWidth - 50) + "px"
+
   }
 
   render() {
