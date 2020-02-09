@@ -24,12 +24,12 @@ class Header extends React.Component {
             Resume
           </span>
         </Link>
-        <Link to={LINK_LAB}>
+        {/* <Link to={LINK_LAB}>
           <span className="nav-item" id="button-lab">
           <i class="fas fa-vial"></i>
             Works
           </span>
-        </Link>
+        </Link> */}
       </div>
     );
   }
