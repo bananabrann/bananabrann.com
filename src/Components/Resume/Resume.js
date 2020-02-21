@@ -46,13 +46,13 @@ class Resume extends React.Component {
       })
     }
 
-    myImg.style.width = (currWidth + 50) + "px"
+    myImg.style.width = (currWidth + 150) + "px"
   }
 
   zoomOut() {
     let myImg = document.getElementById("resume")
     let currWidth = myImg.clientWidth
-    myImg.style.width = (currWidth - 50) + "px"
+    myImg.style.width = (currWidth - 150) + "px"
 
   }
 

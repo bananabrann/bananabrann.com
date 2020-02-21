@@ -1,6 +1,78 @@
-PIERSON L. BRANNAN SOFTWARE ENGINEER 
-Phone hidden online plbrannan95@gmail.com Location hidden online bananabrann.com OBJECTIVESelf-taught with a proven record of commitment to learning and dedication to the team Ôtill the wheels fall off. EXPERIENCE Software Engineer, Black Willow, Inc.April 2019 Ð Present ¥ Northern VA Is a software engineer working with application development and systems engineering that support a variety of U.S. government agencies and non-profit organizations. ¥ Developing software that automates a complex workflow, cutting a two-month routine process into ten minutes. ¥ Developed and integrated numerous custom front-end Qlik extensions and applications using JavaScript and CSS. ¥ Wrote software that automated the cleaning and associations of large relational databases using Python and Bash. 
-Professional Tuba Player, D&B Co. MBW, U.S. Marine Corps November 2014 Ð November 2018 ¥ Washington, DC Along with regular Marine duties, performed tuba in ÒThe CommandantÕs OwnÓ, the premier U.S. Marine Corps music ensemble, for foreign dignitaries and presidential audiences at home and abroad. ¥ Volunteered to handle Public Affairs of the company, starting and finishing a total of 87 graphic art projects for a total U.S. Dept. of Labor estimated savings of $465,000. Received official recognition for this role. (Previous experiences hidden) 
-EDUCATIONB.S. Software Engineering Arizona State University Tempe, Arizona -Online 2019 Ð Present (part-time) C.S.C. Web Development General Assembly Washington, DC 2018 Ð 2019 
+PIERSON L. BRANNAN 
+SOFTWARE ENGINEER 
 
-SKILLS Languages Python JavaScript Bash Java Tools Qlik Sense React SQL Databases Amazon Web Services Django Bootstrap NoSQL Databases AWARDS Naval Achievement Medal (2018) Letter of Commendation from CMC (2018) Letter of Appreciation from CMC (2018) Meritorious Unit Commendation (2017) National John Philip Sousa Award (2013) 
+Phone hidden online 
+plbrannan95@gmail.com 
+Location hidden online 
+bananabrann.com 
+
+
+OBJECTIVE
+Self-taught with a proven record of commitment to learning and 
+dedication to the team ï¿½till the wheels fall off. 
+
+
+EXPERIENCE 
+Software Engineer, Black Willow, Inc.
+April 2019 ï¿½ Present ï¿½ Northern VA 
+Is a software engineer working with application development and 
+systems engineering that support a variety of U.S. government 
+agencies and non-profit organizations. 
+ï¿½ Developing software that automates a complex workflow, cutting 
+a two-month routine process into ten minutes. 
+ï¿½ Developed and integrated numerous custom front-end Qlik 
+extensions and applications using JavaScript and CSS. 
+ï¿½ Wrote software that automated the cleaning and associations of 
+large relational databases using Python and Bash. 
+
+Professional Tuba Player, D&B Co. MBW, U.S. Marine Corps 
+November 2014 ï¿½ November 2018 ï¿½ Washington, DC 
+Along with regular Marine duties, performed tuba in ï¿½The 
+Commandantï¿½s Ownï¿½, the premier U.S. Marine Corps music 
+ensemble, for foreign dignitaries and presidential audiences at 
+home and abroad. 
+ï¿½ Volunteered to handle Public Affairs of the company, starting and 
+finishing a total of 87 graphic art projects for a total U.S. Dept. of 
+Labor estimated savings of $465,000. Received official recognition 
+for this role. 
+(Previous experiences hidden) 
+
+
+EDUCATION
+B.S. Software Engineering 
+Arizona State University 
+Tempe, Arizona -Online 
+2019 to Present (part-time) 
+
+C.S.C. Web Development 
+General Assembly 
+Washington, DC 
+2018 to 2019 
+
+CERTS & MISC
+Active Security Clearance
+
+SKILLS 
+Languages 
+Python 
+JavaScript 
+Bash 
+Java 
+Tools 
+Qlik Sense 
+React 
+SQL Databases 
+Amazon Web Services 
+Django 
+Bootstrap 
+NoSQL Databases 
+AWARDS 
+Naval Achievement Medal (2018) 
+Letter of Commendation from CMC 
+(2018) 
+Letter of Appreciation from CMC (2018) 
+Meritorious Unit Commendation (2017) 
+National John Philip Sousa Award 
+(2013) 
+
+
