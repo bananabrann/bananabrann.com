@@ -18,8 +18,8 @@ class Home extends React.Component {
             <Col>
               <Row>
                 <div id="homepage-header">
-                  <h1>bananabrann.com</h1>
-                  <h2>Pierson Brannan</h2> 
+                  <h1>Bananabrannan</h1>
+                  <h2><b>PIERSON L. BRANNAN</b> - Enjoys Bananas So Much He Branded Himself With It</h2> 
                 </div>
               </Row>
               <Row id="media-links">

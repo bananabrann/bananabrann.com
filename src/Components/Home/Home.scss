@@ -6,11 +6,11 @@
   @include a.center-me();
 
   h1 {
-    @include f.main-banana(c.$lemon);
+    @include f.main-banana(c.$font);
   }
 
   h2 {
-    @include f.second-banana(c.$malibu);
+    @include f.second-banana(c.$font);
   }
 }
 
