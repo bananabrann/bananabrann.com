@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import "./Home.scss"
 
+import Break from "../Break/Break"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -14,8 +15,7 @@ class Home extends React.Component {
       <div className="Home">
         <Container>
           <Row>
-            <Col />
-            <Col xs={12}>
+            <Col>
               <Row>
                 <div id="homepage-header">
                   <h1>bananabrann.com</h1>
@@ -30,11 +30,13 @@ class Home extends React.Component {
                   <i class="fab fa-github-alt fa-3x"></i>
                 </a>
                 <a href="https://stackoverflow.com/users/11057120/bananabrann?tab=profile">
-                  <i className="icon" class="fab fa-stack-overflow fa-3x"></i>
+                  <i class="fab fa-stack-overflow fa-3x"></i>
                 </a>
               </Row>
             </Col>
-            <Col />
+          </Row>
+          <Row>
+            <Break />
           </Row>
         </Container>
 
