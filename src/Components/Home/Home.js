@@ -1,21 +1,35 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import cubeGif from "../../res/img/cube.gif";
-import "./Home.scss";
+import React from "react"
+import { Link } from "react-router-dom"
+import "./Home.scss"
 
-const DOCUMENT_TITLE = "bananabrann - Home";
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+
+const DOCUMENT_TITLE = "bananabrann - Home"
 
 class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-        <div id="upper">
-          <img src={cubeGif} id="cube" alt="" />
-          <p><b>Pierson L. Brannan</b></p>
-          <p id="welcome-message"> –– Self-taught software engineer, prior professional tuba player and U.S. Marine.</p>
-        </div>
+        <Container>
+          <Row>
+            <Col />
+            <Col xs={12}>
+              <Row>
+                <Col>
+                  <div id="homepage-header">
+                    <h1>bananabrann.com</h1>
+                    <h2>Pierson Brannan</h2> 
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+            <Col />
+          </Row>
+        </Container>
 
-        <div id="lower">
+        {/* <div id="lower">
           <a href="https://www.linkedin.com/in/pbrann/">
             <i class="fab fa-linkedin-in fa-3x"></i>
           </a>
@@ -25,14 +39,14 @@ class Home extends React.Component {
           <a href="https://stackoverflow.com/users/11057120/bananabrann?tab=profile">
             <i class="fab fa-stack-overflow fa-3x"></i>
           </a>
-        </div>
+        </div> */}
       </div>
-    );
+    )
   }
 
   componentDidMount() {
-    document.title = DOCUMENT_TITLE;
+    document.title = DOCUMENT_TITLE
   }
 }
 
-export default Home;
+export default Home
