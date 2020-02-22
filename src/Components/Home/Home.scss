@@ -1,13 +1,16 @@
-@use '../../styles/fonts' as f;
+@use '../../styles/adjustments' as a;
 @use '../../styles/colors' as c;
+@use '../../styles/fonts' as f;
 
 #homepage-header {
+  @include a.center-me();
+
   h1 {
     @include f.main-banana(c.$banana-yellow);
   }
 
   h2 {
-
+    @include f.second-banana(c.$miami-cyan);
   }
 }
 
@@ -17,6 +20,6 @@
   align-items: center;
 
   > * {
-  margin: 0 10px;
+    margin: 0 10px;
   }
 }

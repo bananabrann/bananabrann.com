@@ -1,5 +1,4 @@
-$font-p-stack: 'Montserrat', sans-serif;
-$backgroundColor: rgba(227, 227, 227, 1);
+@use '../../styles/colors' as c;
 
 html, body {
   height: 100%;
@@ -7,6 +6,6 @@ html, body {
 }
 
 body {
-  background-color: $backgroundColor;
+  background-color: c.$background-color;
 }
 

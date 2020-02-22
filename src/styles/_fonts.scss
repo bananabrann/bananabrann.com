@@ -1,8 +1,14 @@
 @use 'colors' as c;
 
-$header-font: 'Didact Gothic', ;
+$header-font: "Didact Gothic";
 
 @mixin main-banana($color) {
-  font-family: $header-font;
   color: $color;
+  font-size: 8vw;
+  font-family: $header-font;
+}
+
+@mixin second-banana($color) {
+    color: $color;
+    font-size: 4vw;
 }
