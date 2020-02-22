@@ -1,4 +1,15 @@
-// @use '../App/App.scss';      // TODO: Make universal scss imports
+@use '../../styles/fonts' as f;
+@use '../../styles/colors' as c;
+
+#homepage-header {
+  h1 {
+    @include f.main-banana(c.$banana-yellow);
+  }
+
+  h2 {
+
+  }
+}
 
 #media-links {
   display: flex;

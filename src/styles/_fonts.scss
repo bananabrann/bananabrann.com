@@ -1,0 +1,8 @@
+@use 'colors' as c;
+
+$header-font: 'Didact Gothic', ;
+
+@mixin main-banana($color) {
+  font-family: $header-font;
+  color: $color;
+}
