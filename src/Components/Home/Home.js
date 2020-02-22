@@ -17,12 +17,21 @@ class Home extends React.Component {
             <Col />
             <Col xs={12}>
               <Row>
-                <Col>
-                  <div id="homepage-header">
-                    <h1>bananabrann.com</h1>
-                    <h2>Pierson Brannan</h2> 
-                  </div>
-                </Col>
+                <div id="homepage-header">
+                  <h1>bananabrann.com</h1>
+                  <h2>Pierson Brannan</h2> 
+                </div>
+              </Row>
+              <Row id="media-links">
+                <a href="https://www.linkedin.com/in/pbrann/">
+                  <i class="fab fa-linkedin-in fa-3x"></i>
+                </a>
+                <a href="https://www.github.com/bananabrann">
+                  <i class="fab fa-github-alt fa-3x"></i>
+                </a>
+                <a href="https://stackoverflow.com/users/11057120/bananabrann?tab=profile">
+                  <i className="icon" class="fab fa-stack-overflow fa-3x"></i>
+                </a>
               </Row>
             </Col>
             <Col />

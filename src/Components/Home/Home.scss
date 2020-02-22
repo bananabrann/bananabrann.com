@@ -1,58 +1,11 @@
 // @use '../App/App.scss';      // TODO: Make universal scss imports
 
-$backgroundColor: rgba(227, 227, 227, 1);
-
-body {
-  background-color: $backgroundColor;
-}
-
-.Home {
-  width: 100%;
+#media-links {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 
-  b {
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-
-  #upper {
-    font-family: "Montserrat", sans-serif;
-    color: #111;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-
-    #welcome-message {
-      font-size: 10px;
-      margin: 10px 0;
-      font-size: 12px;
-      max-width: 400px;
-      display: inline;
-    }
-  }
-
-  #lower {
-    //   TODO: Make universal scss imports
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-    position: absolute;
-    margin: 0 auto 1vh;
-
-    * {
-      padding: 0 5px;
-    }
+  > * {
+  margin: 0 10px;
   }
 }
-
-#cube {
-  width: 60vw;
-  max-width: 420px;
-  margin: 2vh 0 0 0;
-}
-
