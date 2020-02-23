@@ -7,18 +7,18 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
-const bank = ["Enjoys bananas so much he branded himself with it",
-"Doesn't own a banana plantation",
-"Did you know? Natural bananas have seeds, and are totally grose"
-]
-
 const DOCUMENT_TITLE = "bananabrann - Home"
+const bank = ["Enjoys bananas so much he branded himself with it",
+              "Doesn't own a banana plantation",
+              "Did you know? Natural bananas have seeds, and are totally grose",
+              "Now plays clarinet!"
+]
 
 class Home extends React.Component {
   constructor() {
     super();
     this.state = { 
-      greetingMessage: bank[Math.floor(Math.random()*bank.length)],
+      greetingMessage: "Self-taught software developer",
       previousGreetingMessage: null
     };
     this.updateRandomGreetingMessage = this.updateRandomGreetingMessage.bind(this)
@@ -72,6 +72,10 @@ class Home extends React.Component {
     this.timeout = setInterval(() => {
       this.updateRandomGreetingMessage()
     }, 4200);
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.timeout);
   }
 }
 
