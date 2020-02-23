@@ -79,7 +79,7 @@ class Home extends React.Component {
                   <i class="fab fa-linkedin-in fa-2x"></i>
                 </a>
                 <a href="https://www.github.com/bananabrann">
-                  <i class="fab fa-github-alt fa-2x"></i>
+                  <i class="fab fa-github fa-2x"></i>
                 </a>
                 <a href="https://stackoverflow.com/users/11057120/bananabrann?tab=profile">
                   <i class="fab fa-stack-overflow fa-2x"></i>
@@ -125,6 +125,15 @@ class Home extends React.Component {
                 my automation scripts in Python and Bash, while doing web
                 development work in primarily React and Django.
               </p>
+
+              <Row id="techstack-icons" className="center-me">
+                <i class="fab fa-js fa-2x"></i>
+                <i class="fas fa-terminal fa-2x"></i>
+                <i class="fab fa-python fa-2x"></i>
+                <i class="fab fa-java fa-2x"></i>
+                <i class="fab fa-sass fa-2x"></i>
+                <i class="fab fa-react fa-2x"></i>
+              </Row>
             </Col>
           </Row>
         </Container>
