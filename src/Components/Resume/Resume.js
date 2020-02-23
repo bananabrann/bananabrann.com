@@ -1,10 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import Header from "../Header/Header"
 import resumeJPG from "../../res/resume/resume_online.jpg";
 import resumePDF from "../../res/resume/resume_online.pdf";
 import resumeTXT from "../../res/resume/resume_online.txt";
 import "./Resume.css"
+
+import Alert from "react-bootstrap/Alert"
+import Button from "react-bootstrap/Button"
+import ButtonGroup from "react-bootstrap/ButtonGroup"
+import Dropdown from "react-bootstrap/Dropdown"
+import DropdownButton from "react-bootstrap/DropdownButton"
 
 const DOCUMENT_TITLE = "bananabrann - Resume";
 const HOME_PATH = "/";
@@ -60,21 +67,28 @@ class Resume extends React.Component {
   render() {
     return (
       <div className="Resume">
-        {/* <Header /> */}
+        <ButtonGroup size="lg">
+          <Button variant="secondary"><Link to="/"><i class="fas fa-home"></i> Return</Link></Button>
+          <Button variant="secondary" onClick={() => this.zoomIn()}><i class="fas fa-search-plus fa-1x"></i></Button>
+          <Button variant="secondary" onClick={() => this.zoomOut()}><i class="fas fa-search-minus fa-1x"></i></Button>
 
-        <div className="buttons">
-          {/* TODO: Add some Bootstrap or something here to make a button group */}
-          {/* prettier-ignore */}
-          <button><a href={resumePDF} download><i class="fas fa-download"></i> PDF</a></button>
-          {/* prettier-ignore */}
-          <button><a href={resumeJPG} download><i class="fas fa-download"></i> JPG</a></button>
-          {/* prettier-ignore */}
-          <button><a href={resumeTXT} download><i class="fas fa-download"></i> TXT</a></button>
-        </div>
-        <div className="zoom-buttons">
-          <button id="zoom-in" type="button" onClick={() => this.zoomIn()}><i class="fas fa-search-plus fa-2x"></i></button>
-          <button id="zoom-out" type="button" onClick={() => this.zoomOut()}><i class="fas fa-search-minus fa-2x"></i></button>
-        </div>
+          <DropdownButton 
+            as={ButtonGroup}
+            variant="secondary"
+            size="lg"
+            title={<> <i class="fas fa-download fa-1x"></i> <span>Download...</span> </>}
+            id="bg-nested-dropdown"
+          >
+            <Dropdown.Item eventKey="1" href={resumePDF} download>as pdf</Dropdown.Item>
+            <Dropdown.Item eventKey="2" href={resumeJPG} download>as jpg</Dropdown.Item>
+            <Dropdown.Item eventKey="3" href={resumeTXT} download>as txt</Dropdown.Item>
+            <Dropdown.Divider></Dropdown.Divider>
+            <Dropdown.Item disabled>Not being prompted?<br/>
+            Long hold (mobile) or right-click (Desktop)<br/>
+            and "Save as..." or "Open in new tab"</Dropdown.Item>
+          </DropdownButton>
+        </ButtonGroup>
+      
         <img
           id="resume"
           alt="Pierson Brannan's resume. Download the resume instead via the 'download' button above"
