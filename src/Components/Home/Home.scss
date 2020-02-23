@@ -21,10 +21,16 @@
   color: c.$font;
   margin: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
   > * {
-    margin: 0 10px;
+    margin: 0 2px;
+  }
+}
+
+#home-content-row {
+  h3 {
+    padding: 6px 0;
   }
 }
