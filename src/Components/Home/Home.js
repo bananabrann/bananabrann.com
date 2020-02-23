@@ -62,7 +62,9 @@ class Home extends React.Component {
 
             <Col id="home-content-row">
               <h3>About</h3>
-              <p>My name is Pierson Brannan, and I'm a self-taught developer, prior U.S. Marine, and tuba player from West Texas.</p>
+              <p>I'm Pierson Brannan, and I'm a self-taught developer, prior U.S. Marine, and tuba player from West Texas. I came to Washington D.C. because of landing a full-time professional tuba player position. I've since left, and have stuck around the Washington area.</p>
+              <br />
+              <p>My career has been working on whatever needs to be worked on. For the past 6 months however, I've been an automation developer –making programs that automate non-programmer's tasks. I program my automation scripts in Python and Bash, while doing web development work in primarily React and Django.</p>
             </Col>
           </Row>
         </Container>
