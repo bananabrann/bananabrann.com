@@ -53,18 +53,6 @@ class Home extends React.Component {
             <Break />
           </Row>
         </Container>
-
-        {/* <div id="lower">
-          <a href="https://www.linkedin.com/in/pbrann/">
-            <i class="fab fa-linkedin-in fa-3x"></i>
-          </a>
-          <a href="https://www.github.com/bananabrann">
-            <i class="fab fa-github-alt fa-3x"></i>
-          </a>
-          <a href="https://stackoverflow.com/users/11057120/bananabrann?tab=profile">
-            <i class="fab fa-stack-overflow fa-3x"></i>
-          </a>
-        </div> */}
       </div>
     )
   }
@@ -83,7 +71,7 @@ class Home extends React.Component {
     
     this.timeout = setInterval(() => {
       this.updateRandomGreetingMessage()
-    }, 1500);
+    }, 4200);
   }
 }
 

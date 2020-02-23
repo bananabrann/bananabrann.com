@@ -1,0 +1,4 @@
+@mixin fast-transition() {
+  transition: all .5s ease-in-out;
+  color: red;
+}

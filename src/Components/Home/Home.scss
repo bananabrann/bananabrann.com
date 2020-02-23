@@ -1,6 +1,7 @@
 @use '../../styles/adjustments' as a;
 @use '../../styles/colors' as c;
 @use '../../styles/fonts' as f;
+@use '../../styles/transitions' as t;
 
 #homepage-header {
   @include a.center-me();
@@ -11,6 +12,7 @@
 
   h2 {
     @include f.second-banana(c.$font);
+    // @include t.fast-transition();
     text-transform: capitalize;
   }
 }
@@ -23,8 +25,4 @@
   > * {
     margin: 0 10px;
   }
-}
-
-#dev-test-col {
-  background-color: blue;
 }
