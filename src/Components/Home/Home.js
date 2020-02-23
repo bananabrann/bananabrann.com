@@ -7,9 +7,23 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
+const bank = ["Enjoys bananas so much he branded himself with it",
+"Doesn't own a banana plantation",
+"Did you know? Natural bananas have seeds, and are totally grose"
+]
+
 const DOCUMENT_TITLE = "bananabrann - Home"
 
 class Home extends React.Component {
+  constructor() {
+    super();
+    this.state = { 
+      greetingMessage: bank[Math.floor(Math.random()*bank.length)],
+      previousGreetingMessage: null
+    };
+    this.updateRandomGreetingMessage = this.updateRandomGreetingMessage.bind(this)
+  }
+
   render() {
     return (
       <div className="Home">
@@ -19,7 +33,7 @@ class Home extends React.Component {
               <Row>
                 <div id="homepage-header">
                   <h1>Bananabrannan</h1>
-                  <h2><b>PIERSON L. BRANNAN</b> - Enjoys Bananas So Much He Branded Himself With It</h2> 
+                  <h2 id="homepage-message"><b></b>{this.state.greetingMessage}</h2> 
                 </div>
               </Row>
               <Row id="media-links">
@@ -55,8 +69,21 @@ class Home extends React.Component {
     )
   }
 
+  updateRandomGreetingMessage() {
+    let newMessage = bank[Math.floor(Math.random()*bank.length)] 
+    while(newMessage == this.state.previousGreetingMessage) newMessage = bank[Math.floor(Math.random()*bank.length)]
+    this.setState({
+      previousGreetingMessage: this.state.greetingMessage,
+      greetingMessage: newMessage
+    })
+  }
+
   componentDidMount() {
     document.title = DOCUMENT_TITLE
+    
+    this.timeout = setInterval(() => {
+      this.updateRandomGreetingMessage()
+    }, 1500);
   }
 }
 

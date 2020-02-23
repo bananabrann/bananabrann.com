@@ -11,6 +11,7 @@
 
   h2 {
     @include f.second-banana(c.$font);
+    text-transform: capitalize;
   }
 }
 
