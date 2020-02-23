@@ -60,7 +60,7 @@ class Resume extends React.Component {
   render() {
     return (
       <div className="Resume">
-        <Header />
+        {/* <Header /> */}
 
         <div className="buttons">
           {/* TODO: Add some Bootstrap or something here to make a button group */}
