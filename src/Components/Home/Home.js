@@ -76,11 +76,13 @@ class Home extends React.Component {
             <Col id="home-content-row">
               <h3>About</h3>
               <p>
-                I'm Pierson Brannan, and I'm a self-taught developer, prior U.S.
+                I'm <b>Pierson Brannan</b>, and I'm a self-taught developer, prior U.S.
                 Marine, and tuba player from West Texas. I came to Washington
-                D.C. because of landing a full-time professional tuba player
-                position. I've since left, and have stuck around the Washington
-                area.
+                D.C. when landing a full-time professional tuba player
+                position with "The Commandant's Own", the United States Marine Drum & Bugle Corps.
+                It was a great experience, performing for some of the America's highest ranking
+                officials and at venues I'll never forget, but I've since left, and have
+                stuck around the Washington area.
               </p>
               <br />
               <p>
