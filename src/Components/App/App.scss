@@ -24,21 +24,33 @@ h3 {
   font-weight: 600;
 }
 
+.not-available {
+  color: c.$not-available;
+}
+
 // TODO: I thnk SASS can handle this to not be explicit
-.link-orange {
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+.link {
   @include f.link();
+}
+
+.link-orange {
   @include t.fast-transition();
 }
 .link-lemon {
-  @include f.link();
   @include t.fast-transition();
 }
 .link-watercourse {
-  @include f.link();
   @include t.fast-transition();
 }
 .link-malibu {
-  @include f.link();
   @include t.fast-transition();
 }
 
@@ -53,6 +65,7 @@ h3 {
 .link-watercourse:hover {
   @include t.fast-transition();
   @include t.add-shadow(c.$watercourse);
+  text-decoration: none;
 }
 .link-malibu:hover {
   @include t.fast-transition();
