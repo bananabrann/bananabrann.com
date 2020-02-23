@@ -56,8 +56,8 @@ class Home extends React.Component {
                   <i class="fab fa-stack-overflow fa-2x"></i>
                 </a>
               </Row>
-              <Row className="left-nav-item"><p>Resume</p></Row>
-              <Row className="left-nav-item"><p>Lab</p></Row>
+              <Row className="left-nav-item"><p className="link link-watercourse">Resume</p></Row>
+              <Row className="left-nav-item"><p className="link link-orange">Lab</p></Row>
             </Col>
 
             <Col id="home-content-row">

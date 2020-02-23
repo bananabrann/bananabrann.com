@@ -1,4 +1,9 @@
+@use './colors' as c;
+
 @mixin fast-transition() {
-  transition: all .5s ease-in-out;
-  color: red;
+  transition: all .25s ease-in-out;
+}
+
+@mixin add-shadow($color) {
+  text-shadow: 2px 2px 0px $color;
 }

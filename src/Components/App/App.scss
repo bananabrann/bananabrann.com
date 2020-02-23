@@ -1,5 +1,6 @@
 @use '../../styles/colors' as c;
 @use '../../styles/fonts' as f;
+@use '../../styles/transitions' as t;
 
 html, body {
   height: 100%;
@@ -23,6 +24,37 @@ h3 {
   font-weight: 600;
 }
 
-.link {
-  
+// TODO: I thnk SASS can handle this to not be explicit
+.link-orange {
+  @include f.link();
+  @include t.fast-transition();
+}
+.link-lemon {
+  @include f.link();
+  @include t.fast-transition();
+}
+.link-watercourse {
+  @include f.link();
+  @include t.fast-transition();
+}
+.link-malibu {
+  @include f.link();
+  @include t.fast-transition();
+}
+
+.link-orange:hover {
+  @include t.fast-transition();
+  @include t.add-shadow(c.$orange);
+}
+.link-lemon:hover {
+  @include t.fast-transition();
+  @include t.add-shadow(c.$lemon);
+}
+.link-watercourse:hover {
+  @include t.fast-transition();
+  @include t.add-shadow(c.$watercourse);
+}
+.link-malibu:hover {
+  @include t.fast-transition();
+  @include t.add-shadow(c.$malibu);
 }

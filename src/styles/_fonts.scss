@@ -21,3 +21,9 @@ b {
     font-size: 1.5vw;
     color: $color;
 }
+
+@mixin link() {
+  font-family: $header-font;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
