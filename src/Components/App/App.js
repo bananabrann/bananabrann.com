@@ -17,7 +17,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
         {/* prettier-ignore */}
         <Route path="/" exact component={Home} render={routerProps => <Home />} />
         {/* prettier-ignore */}

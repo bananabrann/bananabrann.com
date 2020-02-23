@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "../Header/Header"
 import resumeJPG from "../../res/resume/resume_online.jpg";
 import resumePDF from "../../res/resume/resume_online.pdf";
 import resumeTXT from "../../res/resume/resume_online.txt";
@@ -59,6 +60,8 @@ class Resume extends React.Component {
   render() {
     return (
       <div className="Resume">
+        <Header />
+
         <div className="buttons">
           {/* TODO: Add some Bootstrap or something here to make a button group */}
           {/* prettier-ignore */}

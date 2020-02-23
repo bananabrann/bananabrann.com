@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "./Header.scss";
-import bananaPic from "../../res/img/bananas.png";
+import React, { Component } from "react"
+import { Link } from "react-router-dom"
+import "./Header.scss"
+import bananaPic from "../../res/img/bananas.png"
 
-const LINK_HOME = "/";
-const LINK_RESUME = "/resume";
-const LINK_LAB = "/lab";
+const LINK_HOME = "/"
+const LINK_RESUME = "/resume"
+const LINK_LAB = "/lab"
 
 class Header extends React.Component {
   render() {
@@ -31,8 +31,8 @@ class Header extends React.Component {
           </span>
         </Link> */}
       </div>
-    );
+    )
   }
 }
 
-export default Header;
+export default Header
