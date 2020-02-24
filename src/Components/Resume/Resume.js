@@ -82,7 +82,7 @@ class Resume extends React.Component {
             <Dropdown.Item eventKey="1" href={resumePDF} download>as pdf</Dropdown.Item>
             <Dropdown.Item eventKey="2" href={resumeJPG} download>as jpg</Dropdown.Item>
             <Dropdown.Item eventKey="3" href={resumeTXT} download>as txt</Dropdown.Item>
-            <Dropdown.Divider></Dropdown.Divider>
+            <Dropdown.Divider />
             <Dropdown.Item disabled>Not being prompted?<br/>
             Long hold (mobile) or right-click (Desktop)<br/>
             and "Save as..." or "Open in new tab"</Dropdown.Item>

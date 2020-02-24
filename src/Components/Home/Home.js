@@ -14,7 +14,7 @@ const DOCUMENT_TITLE = "bananabrann - Home"
 const bank = [
   "Enjoys bananas so much he branded himself with it",
   "Doesn't own a banana plantation",
-  "Did you know? Natural bananas have seeds, and are totally grose",
+  "Did you know? Natural bananas have seeds, and are totally gross",
   "Now plays clarinet!"
 ]
 
