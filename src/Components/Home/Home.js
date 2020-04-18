@@ -117,37 +117,28 @@ class Home extends React.Component {
                         <Col id="home-content-row">
                             <h3>About</h3>
                             <p>
-                                I'm <b>Pierson Brannan</b>, and I'm a
-                                self-taught developer, prior U.S. Marine, and
-                                tuba player from West Texas. I came to
-                                Washington D.C. when landing a full-time
-                                professional tuba player position with "The
-                                Commandant's Own", the United States Marine Drum
-                                & Bugle Corps. It was a great experience,
-                                performing for some of the America's highest
-                                ranking officials and at venues I'll never
-                                forget, but I've since left, and have stuck
-                                around the Washington area.
+                                I'm <b>Pierson Brannan</b>, a software developer
+                                in the United States. Prior to coding, I
+                                traveled the U.S. and Europe playing tuba
+                                professionally at some pretty big gigs. I was in
+                                the U.S. Marines, and am into the hobby of
+                                growing and presenting live aquatic plants
+                                called aquascaping.
                             </p>
                             <br />
                             <p>
-                                My career has been working on whatever needs to
-                                be worked on. For the past 6 months however,
-                                I've been an automation developer –making
-                                programs that automate non-programmer's tasks. I
-                                program my automation scripts in Python and
-                                Bash, while doing web development work in
-                                primarily React and Django.
+                                I've mostly done front-end web development and
+                                making JavaScript extensions for a business
+                                intelligence software called Qlik. The majority
+                                of my experience is byfar React and web styling
+                                (specifically SCSS), though recently I've been
+                                working with Lua and Kong API Gateway at work.
                             </p>
-
-                            <Row id="techstack-icons" className="center-me">
-                                <i class="fab fa-js fa-2x"></i>
-                                <i class="fas fa-terminal fa-2x"></i>
-                                <i class="fab fa-python fa-2x"></i>
-                                <i class="fab fa-java fa-2x"></i>
-                                <i class="fab fa-sass fa-2x"></i>
-                                <i class="fab fa-react fa-2x"></i>
-                            </Row>
+                            <br />
+                            <p>
+                                For a full list of technologies and languages I
+                                can work with, please see my Resume.
+                            </p>
                         </Col>
                     </Row>
                 </Container>
