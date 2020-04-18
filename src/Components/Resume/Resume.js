@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
+import Alert from "react-bootstrap/Alert";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -9,9 +10,38 @@ const DOCUMENT_TITLE = "bananabrann - Resume";
 const HOME_PATH = "/";
 
 class Resume extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            displayAlert: true
+        }
+    }
+
     render() {
+        let alert;
+
+        if (this.state.displayAlert) {
+            alert = (
+                <Alert
+                    variant="warning"
+                    onClose={() => this.setState({ displayAlert: false })}
+                    dismissible
+                >
+                    <Alert.Heading>
+                        <i class="fas fa-wrench"></i> Style updates!
+                    </Alert.Heading>
+                    <p>
+                        This section is a Work In Progress, and so sorry
+                        if it looks like trash right now! Have feedback
+                        on the styling? Send me an email at plbrannan95@gmail.com
+                    </p>
+                </Alert>
+            );
+        }
+
         return (
             <div className="Resume">
+                {alert}
                 <Container>
                     <Row>
                         <Col>
