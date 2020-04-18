@@ -12,23 +12,6 @@ body {
   background-color: c.$background;
 }
 
-p {
-  color: c.$font;
-  font-family: f.$font-family;
-  font-size: 16px;
-}
-
-h3 {
-  color: c.$font;
-  font-family: f.$header-font;
-  font-size: 36px;
-  font-weight: 600;
-}
-
-.not-available {
-  color: c.$not-available;
-}
-
 .center-me {
   @include a.center-me-as-row();
 }

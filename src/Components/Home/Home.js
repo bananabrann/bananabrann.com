@@ -9,8 +9,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const LINK_RESUME = "/resume";
 const DOCUMENT_TITLE = "bananabrann - Home";
+// FIXME - Links append to local instead of redirect.
+const LINK_DEBBIE = "http"
+const LINK_RESUME = "https://github.com/bananabrann/debbie";
+const LINK_TRADERS ="http://traders.bananabrann.com";
+
 const bank = [
     "Enjoys bananas so much he branded himself with it",
     "Doesn't own a banana plantation",
@@ -76,7 +80,7 @@ class Home extends React.Component {
                     </Row>
 
                     <Row>
-                        <Col lg={3}>
+                        <Col xl={3}>
                             <Row id="media-links">
                                 <a href="https://www.linkedin.com/in/pbrann/">
                                     <i class="fab fa-linkedin-in fa-2x"></i>
@@ -93,26 +97,34 @@ class Home extends React.Component {
                                 <Col>
                                     <Row className="left-nav-item">
                                         <Link to={LINK_RESUME}>
-                                            <p className="link link-watercourse">
-                                                Resume
-                                            </p>
+                                            <h4 className="link link-watercourse">
+                                                View Resume
+                                            </h4>
                                         </Link>
                                     </Row>
 
                                     <Row className="left-nav-item">
-                                        <a onClick={this.handleNotAvailableLinkClick}>
-                                            <p className="link not-available">
-                                                Software Showcase
-                                            </p>
-                                        </a>
+                                        <Link to={LINK_TRADERS}>
+                                            <h4 className="link link-watercourse">
+                                                Traders of the North
+                                            </h4>
+                                        </Link>
                                     </Row>
 
                                     <Row className="left-nav-item">
-                                        <a onClick={this.handleNotAvailableLinkClick}>
+                                        <Link to={LINK_DEBBIE}>
+                                            <h4 className="link link-watercourse">
+                                                Debbie the Robot
+                                            </h4>
+                                        </Link>
+                                    </Row>
+
+                                    <Row className="left-nav-item">
+                                        <h4 onClick={this.handleNotAvailableLinkClick}>
                                             <p className="link not-available">
-                                                Visit Tuba Profile
+                                                Kong LDAP Auth Plugin
                                             </p>
-                                        </a>
+                                        </h4>
                                     </Row>
                                 </Col>
                             </Row>
@@ -143,11 +155,13 @@ class Home extends React.Component {
                                 For a full list of technologies and languages I
                                 can work with, please see my Resume.
                             </p>
-                        </Col>
-                    </Row>
 
-                    <Row>
-                        Hello
+                            {/* <h3>Works</h3>
+                            <h4>Traders of the North</h4>
+                            <p>React, JavaScript ES6, SCSS, Shell</p>
+                            <br />
+                            <p>The longboat</p> */}
+                        </Col>
                     </Row>
                 </Container>
             </div>

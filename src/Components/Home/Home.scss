@@ -4,32 +4,19 @@
 @use '../../styles/transitions' as t;
 
 #homepage-header {
-  @include a.center-me();
-
-  h1 {
-    @include f.main-banana(c.$font);
-  }
-
-  h2 {
-    @include f.second-banana(c.$font);
-    text-transform: capitalize;
-  }
+    @include a.center-me();
 }
 
 #media-links {
-  color: c.$font;
-  margin: 15px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    color: c.$font;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #left-nav-area {
-  padding: 14px;
-}
-
-#home-content-row {
-  h3 {
-    padding: 6px 0;
-  }
+    * {
+        margin: 1px 0px;
+    }
 }
