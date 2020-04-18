@@ -10,7 +10,8 @@
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.0",
     "react-scripts": "^3.3.0",
-    "sass": "^1.19.0"
+    "sass": "^1.19.0",
+    "three": "^0.115.0"
   },
   "scripts": {
     "start": "react-scripts start",

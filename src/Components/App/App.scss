@@ -1,9 +1,16 @@
-html, body {
-  height: 100%;
-  margin: 0;
+@use '../../styles/colors' as c;
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    color: c.$font;
+}
+
+canvas {
+    display: block;
 }
 
 body {
-  background-color: #222;
+    background-color: #222;
 }
-

@@ -1,9 +1,12 @@
 @use '../../styles/colors' as c;
 
-#media-links {
-  color: c.$font;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.Home {
+    position: absolute;
 }
 
+#media-links {
+    color: c.$font;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
