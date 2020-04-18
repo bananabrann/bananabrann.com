@@ -11,8 +11,8 @@ import Col from "react-bootstrap/Col";
 
 const DOCUMENT_TITLE = "bananabrann - Home";
 // FIXME - Links append to local instead of redirect.
-const LINK_DEBBIE = "http"
-const LINK_RESUME = "https://github.com/bananabrann/debbie";
+const LINK_DEBBIE = "https://github.com/bananabrann/debbie"
+const LINK_RESUME = "/resume";
 const LINK_TRADERS ="http://traders.bananabrann.com";
 
 const bank = [
@@ -97,7 +97,7 @@ class Home extends React.Component {
                                 <Col>
                                     <Row className="left-nav-item">
                                         <Link to={LINK_RESUME}>
-                                            <h4 className="link link-watercourse">
+                                            <h4 className="link">
                                                 View Resume
                                             </h4>
                                         </Link>
@@ -105,7 +105,7 @@ class Home extends React.Component {
 
                                     <Row className="left-nav-item">
                                         <Link to={LINK_TRADERS}>
-                                            <h4 className="link link-watercourse">
+                                            <h4 className="link">
                                                 Traders of the North
                                             </h4>
                                         </Link>
@@ -113,7 +113,7 @@ class Home extends React.Component {
 
                                     <Row className="left-nav-item">
                                         <Link to={LINK_DEBBIE}>
-                                            <h4 className="link link-watercourse">
+                                            <h4 className="link">
                                                 Debbie the Robot
                                             </h4>
                                         </Link>
