@@ -22,19 +22,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
 
-  > * {
-    margin: 0 2px;
-  }
+#left-nav-area {
+  padding: 14px;
 }
 
 #home-content-row {
   h3 {
     padding: 6px 0;
   }
-}
-
-#techstack-icons {
-  max-width: 500px;
-  margin: 15px auto;
 }

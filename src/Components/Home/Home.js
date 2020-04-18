@@ -89,28 +89,32 @@ class Home extends React.Component {
                                 </a>
                             </Row>
 
-                            <Row className="left-nav-item">
-                                <Link to={LINK_RESUME}>
-                                    <p className="link link-watercourse">
-                                        Resume
-                                    </p>
-                                </Link>
-                            </Row>
+                            <Row id="left-nav-area">
+                                <Col>
+                                    <Row className="left-nav-item">
+                                        <Link to={LINK_RESUME}>
+                                            <p className="link link-watercourse">
+                                                Resume
+                                            </p>
+                                        </Link>
+                                    </Row>
 
-                            <Row className="left-nav-item">
-                                <a onClick={this.handleNotAvailableLinkClick}>
-                                    <p className="link not-available">
-                                        Software Showcase
-                                    </p>
-                                </a>
-                            </Row>
+                                    <Row className="left-nav-item">
+                                        <a onClick={this.handleNotAvailableLinkClick}>
+                                            <p className="link not-available">
+                                                Software Showcase
+                                            </p>
+                                        </a>
+                                    </Row>
 
-                            <Row className="left-nav-item">
-                                <a onClick={this.handleNotAvailableLinkClick}>
-                                    <p className="link not-available">
-                                        Visit Tuba Profile
-                                    </p>
-                                </a>
+                                    <Row className="left-nav-item">
+                                        <a onClick={this.handleNotAvailableLinkClick}>
+                                            <p className="link not-available">
+                                                Visit Tuba Profile
+                                            </p>
+                                        </a>
+                                    </Row>
+                                </Col>
                             </Row>
                         </Col>
 
@@ -119,11 +123,11 @@ class Home extends React.Component {
                             <p>
                                 I'm <b>Pierson Brannan</b>, a software developer
                                 in the United States. Prior to coding, I
-                                traveled the U.S. and Europe playing tuba
-                                professionally at some pretty big gigs. I was in
-                                the U.S. Marines, and am into the hobby of
-                                growing and presenting live aquatic plants
-                                called aquascaping.
+                                traveled the U.S. and Europe for four years
+                                playing tuba professionally at some pretty big
+                                gigs. I was in the U.S. Marines, and am into the
+                                hobby of growing and presenting live aquatic
+                                plants called aquascaping.
                             </p>
                             <br />
                             <p>
@@ -140,6 +144,10 @@ class Home extends React.Component {
                                 can work with, please see my Resume.
                             </p>
                         </Col>
+                    </Row>
+
+                    <Row>
+                        Hello
                     </Row>
                 </Container>
             </div>
