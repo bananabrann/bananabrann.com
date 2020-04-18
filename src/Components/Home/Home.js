@@ -16,7 +16,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="Home">
-                <Container>
+                <Container fluid>
                     <Row id="media-links">
                         <a href="https://www.linkedin.com/in/pbrann/">
                             <i class="fab fa-linkedin-in fa-2x"></i>
