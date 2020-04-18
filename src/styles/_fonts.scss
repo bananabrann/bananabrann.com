@@ -1,19 +1,19 @@
 @use 'colors' as c;
 
 // $header-font: "Didact Gothic";
-$header-font: 'Playfair Display';
-$font-family: 'Source Sans Pro';
+$header-font: "Playfair Display";
+$font-family: "Source Sans Pro";
 
 b {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 @mixin main-banana($color) {
-  color: $color;
-  font-size: 8vw;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: $header-font;
+    color: $color;
+    font-size: 8vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: $header-font;
 }
 
 @mixin second-banana($color) {
@@ -23,8 +23,8 @@ b {
 }
 
 @mixin link() {
-  font-family: $header-font;
-  letter-spacing: 1px;
-  font-size: 24px;
-  text-decoration: none;
+    font-family: $header-font;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-decoration: none;
 }
