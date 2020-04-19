@@ -48,8 +48,9 @@ class Resume extends React.Component {
                         <Col>
                             <p><b>Phone Number Hidden Online</b></p>
                             <p><b>Email: plbrannan95@gmail.com</b></p>
+                            <p>---</p>
                             <p><b>U.S. Natural Born Citizen</b></p>
-                            <p><b>Holds Active Clearances</b></p>
+                            <p><b>Cleared, Active</b></p>
                         </Col>
                     </Row>
                     <Row>
@@ -97,6 +98,38 @@ class Resume extends React.Component {
                             <p>General Assembly Coding Bootcamp, October 2018 to March 2019</p>
 
                         </Col>
+                        
+                        <Col md={5}>
+                            <h3>Skills</h3>
+                            <h4>Web Development</h4>
+                            <p>AWS</p>
+                            <p>CSS, SASS/SCSS</p>
+                            <p>Django</p>
+                            <p>Node</p>
+                            <p>Python</p>
+                            <p>React</p>
+                            <br />
+
+                            <h4>Workflow Automation</h4>
+                            <p>Python</p>
+                            <p>Java</p>
+                            <p>Linux/Mac Shell Scripting</p>
+                            <br />
+
+                            <h4>Data Visualization</h4>
+                            <p>Data Modeling</p>
+                            <p>Docker</p>
+                            <p>JavaScript</p>
+                            <p>Qlik Sense</p>
+                            <br />
+
+                            <h4>New Tech, Misc.</h4>
+                            <p>Kong API Gateway</p>
+                            <p>Three.js</p>
+                            <p>LDAP</p>
+                            <p>Lua</p>
+                            <br />
+                        </Col> 
                     </Row>
                 </Container>
             </div>
