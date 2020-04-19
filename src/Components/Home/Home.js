@@ -104,19 +104,19 @@ class Home extends React.Component {
                                     </Row>
 
                                     <Row className="left-nav-item">
-                                        <Link to={LINK_TRADERS}>
+                                        <a href={LINK_TRADERS}>
                                             <h4 className="link">
                                                 Traders of the North
                                             </h4>
-                                        </Link>
+                                        </a>
                                     </Row>
 
                                     <Row className="left-nav-item">
-                                        <Link to={LINK_DEBBIE}>
+                                        <a href={LINK_DEBBIE}>
                                             <h4 className="link">
                                                 Debbie the Robot
                                             </h4>
-                                        </Link>
+                                        </a>
                                     </Row>
 
                                     <Row className="left-nav-item">
