@@ -1,1 +1,9 @@
 @use '../../styles/fonts' as f;
+
+#resume-options {
+    margin: 0 auto;
+
+    .resume-nav-item {
+        padding: 3px 0;
+    }
+}

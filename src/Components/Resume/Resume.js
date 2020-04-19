@@ -1,5 +1,7 @@
 import React from "react";
+import Break from "../Break/Break";
 import Header from "../Header/Header";
+import { Link } from "react-router-dom";
 import Alert from "react-bootstrap/Alert";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
@@ -44,15 +46,39 @@ class Resume extends React.Component {
             <div className="Resume">
                 {alert}
                 <Container>
+                    <Row id="resume-options">
+                        <Col>
+                            
+                            <Row className="resume-nav-item">
+                                <Link to="/">
+                                    <p>
+                                        <i class="fas fa-undo-alt"></i>
+                                        &nbsp; Return Home  
+                                    </p>
+                                </Link>
+                            </Row>
+                            {/* <Row className="resume-nav-item">
+                                <p>
+                                    <i class="fas fa-file-download"></i>
+                                    &nbsp; Download PDF
+                                </p>
+                            </Row> */}
+                        </Col>
+
+                            <p>---</p>
+                    </Row>
+
+                    <Break />
+
                     <Row>
                         <Col>
                             <p><b>Phone Number Hidden Online</b></p>
                             <p><b>Email: plbrannan95@gmail.com</b></p>
-                            <p>---</p>
                             <p><b>U.S. Natural Born Citizen</b></p>
                             <p><b>Cleared, Active</b></p>
                         </Col>
                     </Row>
+
                     <Row>
                         <Col>
                             {/* SECTION */}
