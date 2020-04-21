@@ -127,14 +127,15 @@ class Home extends React.Component {
                                             </h4>
                                         </a>
                                     </Row>
+                                    */}
 
                                     <Row className="left-nav-item">
                                         <h4 onClick={this.handleNotAvailableLinkClick}>
                                             <p className="link not-available">
-                                                Kong LDAP Auth Plugin
+                                                Tuba Showcase
                                             </p>
                                         </h4>
-                                    </Row> */}
+                                    </Row> 
                                 </Col>
                             </Row>
                         </Col>
