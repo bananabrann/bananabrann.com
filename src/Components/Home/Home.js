@@ -13,6 +13,7 @@ const DOCUMENT_TITLE = "bananabrann - Home";
 // FIXME - Links append to local instead of redirect.
 const LINK_DEBBIE = "https://github.com/bananabrann/debbie"
 const LINK_RESUME = "/resume";
+const LINK_GTV = "http://gtv.bananabrann.com";
 const LINK_TRADERS ="http://traders.bananabrann.com";
 
 const bank = [
@@ -104,6 +105,14 @@ class Home extends React.Component {
                                     </Row>
 
                                     <Row className="left-nav-item">
+                                        <a href={LINK_GTV}>
+                                            <h4 className="link">
+                                                Grandparents-TV
+                                            </h4>
+                                        </a>
+                                    </Row>
+
+                                    {/* <Row className="left-nav-item">
                                         <a href={LINK_TRADERS}>
                                             <h4 className="link">
                                                 Traders of the North
@@ -125,7 +134,7 @@ class Home extends React.Component {
                                                 Kong LDAP Auth Plugin
                                             </p>
                                         </h4>
-                                    </Row>
+                                    </Row> */}
                                 </Col>
                             </Row>
                         </Col>
