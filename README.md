@@ -1,44 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# bananabrann.com
+Welcome! This is the repo for my website, bananabrann.com. It's a very simple site, primarily used for other domains that are not necessarily public and/or known.
 
-## Available Scripts
+# Table of Contents
+1. [How to Launch](#how-to-launch)
+1. [How to Deploy](#how-to-deploy)
+1. [Contributing](#contributing)
 
-In the project directory, you can run:
+# How to Launch
+This app is built with React and Typescript. If you have Node and NPM installed, you just simply `npm install` prior to starting the script. If you don't have Node, you will have to manually install dependencies to your system and then write a build script.
 
-### `npm start`
+1. Launch React script with `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# How to Deploy
+## Install the AWS CLI
+**Linux:** `sudo apt install awscli`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**Windows** Who knows, really? If you have a Bash shell, you might be able to follow the Linux or Mac commands. If you're using Powershell or Command Line, god speed, warrior.
 
-### `npm test`
+**Mac** Easier than Windows! Check out the AWS docs, I'm sure it's not that bad.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## EZ Deploy
+There is a script that manages the deployment.
 
-### `npm run build`
+1. Ensure the config file is setup properly with `aws configure`
+1. Execute `deploy.sh` with `./deploy.sh` or `bash deploy.sh`, or whatever your preferred method is.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Contributing
+There is not policy for contributions on this repo. If you feel so inclined to help, please simply make a pull request. Thank you very much!
