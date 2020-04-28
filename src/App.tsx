@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Footer from "./Footer/Footer";
+import "./App.css";
+import "./styles/text.scss";
 
 function App() {
   return (
-    <div className="App">
-      <p>sup</p>
+    <div className="App reset">
+      <Footer />
     </div>
   );
 }

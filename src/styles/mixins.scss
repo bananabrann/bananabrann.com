@@ -1,0 +1,6 @@
+@mixin center-me() {
+  display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+  align-content: center;
+}
