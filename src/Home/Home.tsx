@@ -21,9 +21,9 @@ function Home() {
         <a href="https://github.com/bananabrann"><p>GitHub</p></a>
       </span>
 
-      <Link to="/lab">
+      {/* <Link to="/lab">
         <h3 className="grape">Lab</h3>
-      </Link>
+      </Link> */}
     </div>
   );
 }
