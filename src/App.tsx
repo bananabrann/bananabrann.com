@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import { render } from 'react-dom';
-// import {Home, Foo, Bar} from './Pages';
 import Footer from "./Footer/Footer";
 import Home from "./Home/Home";
 import "./App.scss";
@@ -13,11 +12,12 @@ class App extends React.Component {
     return (
       <Router>
         <div className="App">
-          <nav>
+          {/* <nav>
             <Link to="/">Home</Link>
             <Link to="/foo">Foo</Link>
             <Link to="/bar">Bar</Link>
-          </nav>
+          </nav> */}
+
           <Switch>
             <Route exact path="/" component={Home} />
 

@@ -1,8 +1,10 @@
 @import '../styles/mixins.scss';
+@import '../styles/text.scss';
 
 .Footer {
-  @include center-me();
+  @include center-me("row");
   width: 100%;
   position: absolute;
   bottom: 0;
+  color: $white;
 }

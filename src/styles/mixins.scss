@@ -1,6 +1,6 @@
-@mixin center-me() {
+@mixin center-me($align) {
   display: flex;
-  flex-direction: inherit;
+  flex-direction: $align;
   justify-content: center;
   align-content: center;
 }

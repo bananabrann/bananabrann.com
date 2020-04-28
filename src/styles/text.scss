@@ -1,5 +1,31 @@
+$emerald: #23ce6b;
+$black: #272d2d;
+$white: #f6f8ff;
+$grape: #9c89b8;
+$yellow: #f4ac45;
+
 .tiny-text {
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.emerald {
+  color: $emerald;
+}
+
+.black {
+  color: $black;
+}
+
+.white {
+  color: $white;
+}
+
+.grape {
+  color: $grape;
+}
+
+.yellow {
+  color: $yellow;
 }
 
 .reset {
