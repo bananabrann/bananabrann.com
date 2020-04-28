@@ -2,7 +2,13 @@ import React from "react";
 import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
 import "./Home.scss";
 
+function displayBackground() {
+  console.log("Hello from displayBackground()");
+}
+
 function Home() {
+  displayBackground();
+
   return (
     <div className="Home">
       <h1 className="yellow">Pierson L. Brannan</h1>
