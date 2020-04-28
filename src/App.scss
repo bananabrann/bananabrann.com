@@ -1,4 +1,7 @@
+@import './styles/mixins.scss';
+
 .App {
+  @include center-me();
   background-color: #120d1a;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
