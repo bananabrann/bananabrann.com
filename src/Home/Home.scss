@@ -8,3 +8,10 @@
   max-width: 780px;
   color: $white;
 }
+
+#social-media {
+  @include center-me("row");
+  > * {
+    padding: 0 14px;
+  }
+}
