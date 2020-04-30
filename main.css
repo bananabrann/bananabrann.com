@@ -29,6 +29,15 @@ footer {
   margin-bottom: 12px;
 }
 
+#skills {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 h1 {
   font-size: calc(10px + 6vmin);
 }
