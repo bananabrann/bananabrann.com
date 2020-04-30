@@ -1,8 +1,8 @@
-import * as THREE from './node_modules/three/src/Three.js';
+import * as THREE from "./node_modules/three/src/Three.js";
 
 // import Stats from "./jsm/libs/stats.module.js";
 
-console.log("sup")
+console.log("sup");
 
 var SEPARATION = 100,
   AMOUNTX = 50,
@@ -66,10 +66,10 @@ function init() {
 
   var material = new THREE.ShaderMaterial({
     uniforms: {
-      color: { value: new THREE.Color(0xffffff) },
+      color: { value: new THREE.Color(0xffffff) }
     },
     vertexShader: document.getElementById("vertexshader").textContent,
-    fragmentShader: document.getElementById("fragmentshader").textContent,
+    fragmentShader: document.getElementById("fragmentshader").textContent
   });
 
   //
@@ -83,8 +83,6 @@ function init() {
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(window.innerWidth, window.innerHeight);
   container.appendChild(renderer.domElement);
-
-
 
   document.addEventListener("mousemove", onDocumentMouseMove, false);
   document.addEventListener("touchstart", onDocumentTouchStart, false);
