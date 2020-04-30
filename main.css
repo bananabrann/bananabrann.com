@@ -1,0 +1,52 @@
+body {
+  color: #fdfffc;
+  font-family: 'ubuntu Mono', monospace;
+  overflow: hidden;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+
+} 
+
+main section {
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: calc(10px + 6vmin);
+}
+
+.text-block {
+  max-width: 500px;
+}
+.text-block p {
+  padding: 4px 0;
+}
+
+.black {
+  color: #011627;
+}
+.white {
+  color: #fdfffc;
+}
+.cyan {
+  color: #2ec4b6;
+}
+.red {
+  color: #e71d36;
+}
+.orange {
+  color: #ff9f1c;
+}
+.green {
+  color: #06d6a0; 
+}
