@@ -2,15 +2,22 @@
   "name": "pierson-website",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.html",
+  "main": "bg.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.17.15",
     "node-sass": "^4.14.0",
     "three": "^0.115.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
