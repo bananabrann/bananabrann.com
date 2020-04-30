@@ -1,0 +1,82 @@
+body {
+  color: #fdfffc;
+  font-family: 'ubuntu Mono', monospace;
+  overflow: hidden;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+} 
+
+main section {
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+}
+
+#skills {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: calc(10px + 6vmin);
+}
+
+b {
+  font-weight: 700;
+}
+
+.text-block {
+  max-width: 650px;
+}
+.text-block p {
+  padding: 4px 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: inherit;
+}
+
+.black {
+  color: #011627;
+}
+.white {
+  color: #fdfffc;
+}
+.cyan {
+  color: #2ec4b6;
+}
+.red {
+  color: #e90a24;
+}
+.orange {
+  color: #ff9f1c;
+}
+.green {
+  color: #06d6a0; 
+}
+.purple {
+  color: #ff00ea;
+}

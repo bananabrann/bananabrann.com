@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <title>plb</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1 class="cyan">Pierson</h1>
+        <div class="text-block">
+          <p>
+            Hey there, I'm Pierson. A lot know me by <b class="orange">Lee</b>,
+            but either name is fine. I'm a
+            <b class="purple">software developer</b>, former U.S. Marine, and an
+            aquarium lover. Prior to coding, I was a full-time, professional
+            tuba player for four years.
+          </p>
+          <p>
+            Unfortunately due to covid-19, I've left my current company. For
+            more information, please feel free to reach out to me. As a result,
+            I am <b class="cyan">currently looking for a new gig!</b>
+          </p>
+        </div>
+      </section>
+      <section>
+        <h4 class="red">
+          <a download href="./resume.pdf">Download my Resume</a>
+        </h4>
+      </section>
+      <!-- <section>
+        <div id="skills">
+          <div id="languages">
+            <h3>languages</h3>
+          </div>
+          <div id="tools">
+            <h3>tools</h3>
+          </div>
+          <div id="learning">
+            <h3>learning</h3>
+          </div>
+      </section> -->
+
+
+      <footer>
+        <h4 class="cyan">
+          <a href="https://www.linkedin.com/in/pbrann/">linkedin</a>
+        </h4>
+        <h4 class="orange">
+          <a href="https://github.com/bananabrann">github</a>
+        </h4>
+      </footer>
+    </main>
+
+    <script type="x-shader/x-vertex" id="vertexshader">
+      attribute float scale;
+      void main() {
+        vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+        gl_PointSize = scale * ( 300.0 / - mvPosition.z );
+        gl_Position = projectionMatrix * mvPosition;
+      }
+    </script>
+
+    <script type="x-shader/x-fragment" id="fragmentshader">
+      uniform vec3 color;
+      void main() {
+        if ( length( gl_PointCoord - vec2( 0.5, 0.5 ) ) > 0.475 ) discard;
+        gl_FragColor = vec4( color, 1.0 );
+      }
+    </script>
+    <script type="module" src="bg.js" />
+  </body>
+</html>
