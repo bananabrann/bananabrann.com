@@ -33,7 +33,7 @@ h1 {
   font-size: calc(10px + 6vmin);
 }
 h4 {
-  font-size: calc(5px + 2vmin);
+  /* font-size: 24px; */
 }
 
 b {
@@ -41,10 +41,16 @@ b {
 }
 
 .text-block {
-  max-width: 500px;
+  max-width: 650px;
 }
 .text-block p {
   padding: 4px 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: inherit;
 }
 
 .black {
@@ -57,11 +63,14 @@ b {
   color: #2ec4b6;
 }
 .red {
-  color: #e71d36;
+  color: #e90a24;
 }
 .orange {
   color: #ff9f1c;
 }
 .green {
   color: #06d6a0; 
+}
+.purple {
+  color: #ff00ea;
 }
