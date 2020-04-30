@@ -3,4 +3,5 @@
 # and include a src/ directory because it will need
 # a build process
 
-cp *.js *.css *.html *.pdf build/
+rm -rf build/*
+cp -r *.js *.css *.html *.pdf node_modules/ build/
