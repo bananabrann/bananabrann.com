@@ -3,5 +3,11 @@
 # and include a src/ directory because it will need
 # a build process
 
-rm -rf build/*
-cp -r *.js *.css *.html *.pdf node_modules/ build/
+
+if [ ! -d "dist" ]; then
+  mkdir dist
+fi
+
+rm -rf dist/*
+webpack --mode production
+cp -r src/*.css src/*.html src/*.pdf dist/

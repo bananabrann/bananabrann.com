@@ -1,4 +1,5 @@
-import * as THREE from "./node_modules/three/src/Three.js";
+// import * as THREE from "three";
+var THREE = require('three')
 
 // import Stats from "./jsm/libs/stats.module.js";
 
