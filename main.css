@@ -9,7 +9,6 @@ main {
   height: 100vh;
   position: absolute;
   z-index: 1;
-
 } 
 
 main section {
@@ -21,8 +20,24 @@ main section {
   align-items: center;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+}
+
 h1 {
   font-size: calc(10px + 6vmin);
+}
+h4 {
+  font-size: calc(5px + 2vmin);
+}
+
+b {
+  font-weight: 700;
 }
 
 .text-block {
