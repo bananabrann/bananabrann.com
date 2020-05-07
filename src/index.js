@@ -15,8 +15,9 @@ var camera, scene, renderer;
 var particles,
   count = 0;
 
-var mouseX = 0,
-  mouseY = 0;
+var mouseX = 500,
+  mouseY = -500;
+  // Original values: 0
 
 var windowHalfX = window.innerWidth / 2;
 var windowHalfY = window.innerHeight / 2;
@@ -29,7 +30,7 @@ function init() {
   document.body.appendChild(container);
 
   camera = new THREE.PerspectiveCamera(
-    75,
+    80, // original value: 75
     window.innerWidth / window.innerHeight,
     1,
     10000
