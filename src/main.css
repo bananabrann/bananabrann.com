@@ -11,13 +11,6 @@ row {
   align-items: flex-start;
 }
 
-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 main {
   width: 100vw;
   height: 100vh;
